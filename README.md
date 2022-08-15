@@ -30,7 +30,7 @@ with picamera.PiCamera() as camera:
         randomValue=randomNum.standard_normal()
         print(randomValue)
 ```
-Second method adds up the RGB values for each pixel, creating an overall total. Mixes the value with the number of nanoseconds since epoch. Seeds the entropy pool into a ChaCha20 CSPRNG.
+Alternative method adds up the RGB values for each pixel, creating an overall total. Mixes the value with the number of nanoseconds since epoch. Seeds the entropy pool into a ChaCha20 CSPRNG.
 ```python
 import picamera
 import picamera.array
