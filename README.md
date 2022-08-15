@@ -2,7 +2,7 @@
  
 <img src="https://github.com/JW2586/Plasma-ball-entropy-generator/blob/e45cb5215a0c4632ddd4b8947a264bf6d1db87db/Images/Hardware%20setup.jpg" alt="alt text" width="400" height="whatever">
 
-# Using a chaotic Plasma globe as a source of entropy for random number generation
+# Using a chaotic Plasma globe as an entropy source for random number generation
 Extracts binary data from an image captured by a Raspberry Pi camera. Mixes the entropy with the number of nanoseconds since epoch. Seeds the entropy pool into a ChaCha20 CSPRNG.
 ```python
 import picamera
