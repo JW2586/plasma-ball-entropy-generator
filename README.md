@@ -1,5 +1,6 @@
 # 🔮 Plasma ball entropy generator
- 
+*This is a proof of concept inspired by Cloudflare's implementation of Lavarand*
+
 <img src="https://github.com/JW2586/Plasma-ball-entropy-generator/blob/e45cb5215a0c4632ddd4b8947a264bf6d1db87db/Images/Hardware%20setup.jpg" alt="alt text" width="400" height="whatever">
 
 # Using a chaotic Plasma globe as an entropy source for random number generation
